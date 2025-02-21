@@ -1,0 +1,35 @@
+.DS_Store
+.idea
+*.log
+tmp/
+
+*.tern-port
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+*.tsbuildinfo
+.npm
+.eslintcache
+
+/config.yaml
+.vscode
+
+vendor/*/
+wercker
+.wercker
+.DS_STORE
+node_modules/
+.vercel
+
+### Hugo ###
+# Generated files by hugo
+/public/
+/resources/_gen/
+/assets/jsconfig.json
+hugo_stats.json
+.hugo_build.lock
+
+# Temporary lock file while building
+.hugo_build.lock

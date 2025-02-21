@@ -1,0 +1,87 @@
+baseURL = "https://bernhard-jung.de/"
+defaultContentLanguage = "de"
+# Automatically generate robots.txt
+enableRobotsTXT = true
+languageCode = "de"
+theme = "gokarna"
+title = "Bernhard Jung"
+
+[[module.mounts]]
+source = "assets"
+target = "assets"
+
+[menu]
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 2
+
+[[menu.main]]
+name = "Über mich"
+url = "/about/"
+weight = 1
+
+[[menu.main]]
+name = "Impressum"
+url = "/impressum/"
+weight = 3
+
+[[menu.main]]
+name = "Datenschutz"
+url = "/Datenschutz/"
+weight = 4
+
+[minify]
+minifyOutput = true
+
+[params]
+# Choose the color shown when hyperlinks are hovered over
+accentColor = "#FF4D4D"
+
+# Resource URL for the site avatar (home page and header)
+avatarUrl = "/images/avatar.jpg"
+
+# Describe the avatar for screen readers
+avatarAltText = "avatar"
+
+# Set the avatar's size: size-xs, size-s, size-m, size-l & size-xl
+avatarSize = "size-xl"
+
+# Inject arbitrary HTML via the <head> tag
+# Best used for importing custom JavaScript, CSS, or analytics
+customHeadHTML = ""
+
+# Configure how post dates are displayed
+dateFormat = "January 2, 2006"
+
+# Home page meta description
+description = ""
+
+# Footer text (i.e. author/project name)
+footer = "Bernhard Jung"
+
+# Define how many posts are displayed on the home page
+# showPostsOnHomePage must be "popular" or "recent"
+numberPostsOnHomePage = 4
+
+# Display a "back to top" button on posts and pages: true, false
+# May not render on smaller screen sizes
+showBackToTopButton = true
+
+# Display posts on the home page:
+# "popular" (order posts by weight)
+# "recent" (order posts by date)
+# "", unset (do not display)
+showPostsOnHomePage = ""
+
+# Show the previous and next post in your timeline: "true", "false"
+# Incompatible with Weight
+togglePreviousAndNextButtons = false
+
+socialIcons = [
+    {name = "email", url = "https://example.com"},
+    {name = "github", url = "https://example.com"},
+]
+
+
