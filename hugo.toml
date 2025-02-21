@@ -13,24 +13,36 @@ target = "assets"
 [menu]
 
 [[menu.main]]
-name = "Portfolio"
-url = "/portfolio/"
-weight = 2
+name = "Home"
+url = "/"
+weight = 1
+pre = "<span data-feather='home'></span>"
 
 [[menu.main]]
 name = "Über mich"
 url = "/about/"
-weight = 1
+weight = 2
+
+pre = "<span data-feather='user'></span>"
+
+[[menu.main]]
+name = "Portfolio"
+url = "/portfolio/"
+weight = 3
+pre = "<span data-feather='code'></span>"
 
 [[menu.main]]
 name = "Impressum"
 url = "/impressum/"
-weight = 3
+weight = 4
+pre = "<span data-feather='at-sign'></span>"
 
 [[menu.main]]
 name = "Datenschutz"
 url = "/Datenschutz/"
-weight = 4
+weight = 5
+pre = "<span data-feather='clipboard'></span>"
+
 
 [minify]
 minifyOutput = true
@@ -61,7 +73,7 @@ customHeadHTML = ""
 dateFormat = "January 2, 2006"
 
 # Home page meta description
-description = ""
+description = "Software Engineering mit DevOps Mindset"
 
 # Footer text (i.e. author/project name)
 footer = "Bernhard Jung"
