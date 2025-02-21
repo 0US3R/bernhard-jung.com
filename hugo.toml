@@ -1,4 +1,4 @@
-baseURL = "https://bernhard-jung.de/"
+baseURL = "https://bernhard-jung.com/"
 defaultContentLanguage = "de"
 # Automatically generate robots.txt
 enableRobotsTXT = true
@@ -34,6 +34,11 @@ weight = 4
 
 [minify]
 minifyOutput = true
+[deployment]
+
+[[deployment.targets]]
+name = "default"
+URL = "gs://bernhard-jung.com"
 
 [params]
 # Choose the color shown when hyperlinks are hovered over
@@ -80,8 +85,6 @@ showPostsOnHomePage = ""
 togglePreviousAndNextButtons = false
 
 socialIcons = [
-    {name = "email", url = "https://example.com"},
-    {name = "github", url = "https://example.com"},
+    {name = "email", url = "mailto:info@bernhard-jung.com"},
+    {name = "github", url = "https://github.com/0US3R"},
 ]
-
-
