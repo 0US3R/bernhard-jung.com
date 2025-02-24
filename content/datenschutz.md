@@ -15,7 +15,7 @@ type: "page"
    können Sie dem Abschnitt „Hinweis zur Verantwortlichen Stelle“ in dieser Datenschutzerklärung entnehmen.
    ### Wie erfassen wir Ihre Daten?
    Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei kann es sich z. B. um
-   Daten handeln, die Sie in ein Kontaktformular eingeben.
+   Daten handeln, die Sie in ein K[about.md](about.md)ontaktformular eingeben.
    Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website durch unsere ITSysteme erfasst. Das sind vor allem technische Daten (z. B. Internetbrowser, Betriebssystem oder Uhrzeit
    des Seitenaufrufs). Die Erfassung dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
    ### Wofür nutzen wir Ihre Daten?
